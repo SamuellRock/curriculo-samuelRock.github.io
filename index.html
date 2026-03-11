@@ -1,181 +1,374 @@
+
+
+<link rel="stylesheet" href="styles.css">
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Samuel Elias Rocha</title>
-
-<link rel="stylesheet" href="styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Samuel Elias Rocha | Full Stack Developer</title>
+  <meta name="description" content="Currículo online de Samuel Elias Rocha — Desenvolvedor Full Stack com experiência em React, Node.js, Java, Python, segurança de software e aplicações enterprise." />
 </head>
 
 <body>
+  <div class="page-shell">
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-inner">
+          <span class="eyebrow" data-lang="pt">Currículo online</span>
+          <span class="eyebrow" data-lang="en" style="display:none;">Online resume</span>
 
-<div class="container">
+          <h1 class="name">Samuel Elias da Silva Rocha</h1>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
+          <p class="role" data-lang="pt">Desenvolvedor Full Stack com foco em aplicações enterprise, integração de sistemas, segurança de software e engenharia moderna.</p>
+          <p class="role" data-lang="en" style="display:none;">Full Stack Developer focused on enterprise applications, systems integration, software security, and modern engineering practices.</p>
 
-        <h1 class="name">
-            Samuel Elias<br>
-            da Silva Rocha
-        </h1>
+          <div class="sidebar-actions">
+            <button class="action-btn action-primary" id="downloadSidebarBtn">Download CV</button>
+            <a class="action-btn action-secondary" href="https://www.linkedin.com/in/samuel-elias-rocha/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
 
-        <div class="section">
-            <h2>Contato</h2>
-            <p>Niterói, Rio de Janeiro - Brasil</p>
-            <p>samuell.rocha.01@gmail.com</p>
-            <p>(21) 99130-6308</p>
-            <p>linkedin.com/in/samuel-elias-rocha/</p>
+          <div class="contact-list">
+            <div class="contact-item"><span>📍</span><span>Niterói, Rio de Janeiro - Brasil</span></div>
+            <div class="contact-item"><span>✉️</span><span>samuell.rocha.01@gmail.com</span></div>
+            <div class="contact-item"><span>📞</span><span>(21) 99130-6308</span></div>
+            <div class="contact-item"><span>🔗</span><a href="https://www.linkedin.com/in/samuel-elias-rocha/" target="_blank" rel="noreferrer">linkedin.com/in/samuel-elias-rocha/</a></div>
+          </div>
+
+          <section class="sidebar-section">
+            <h2 data-lang="pt">Hard Skills</h2>
+            <h2 data-lang="en" style="display:none;">Hard Skills</h2>
+
+            <div class="stack-block">
+              <div class="group-title">Linguages</div>
+              <p>Node.js e Typescript (Express, NestJS, React, Vue, Redux, Axios)</p>
+              <p>Python (Django, FastAPI, Langchain, Ollama, Pandas, Dash Plotly)</p>
+              <p>Java 8, 11, 21 (Enterprise e Spring)</p>
+
+              <div class="group-title">DevOps e Cloud</div>
+              <p>Docker e Podman</p>
+              <p>CI/CD Pipelines</p>
+              <p>Conhecimento de AWS</p>
+
+              <div class="group-title">Database</div>
+              <p>DB2, PostgreSQL, Redis, DynamoDB</p>
+
+              <div class="group-title">Teste e Observabilidade</div>
+              <p>SAST e DAST</p>
+              <p>SonarQube, Mend, OWASP ZAP</p>
+              <p>Dynatrace</p>
+
+              <div class="group-title">Engenharia de Software</div>
+              <p>SOLID</p>
+              <p>Microservices architecture</p>
+              <p>Método Ágil e SCRUM</p>
+              <p>Boas prática de segurança</p>
+            </div>
+          </section>
+
+          <section class="sidebar-section">
+            <h2 data-lang="pt">Soft Skills</h2>
+            <h2 data-lang="en" style="display:none;">Soft Skills</h2>
+            <div class="chip-grid">
+              <span class="chip" data-lang="pt">Comunicação</span>
+              <span class="chip" data-lang="en" style="display:none;">Communication</span>
+              <span class="chip" data-lang="pt">Colaboração</span>
+              <span class="chip" data-lang="en" style="display:none;">Collaboration</span>
+              <span class="chip" data-lang="pt">Pensamento analítico</span>
+              <span class="chip" data-lang="en" style="display:none;">Analytical thinking</span>
+              <span class="chip" data-lang="pt">Organização</span>
+              <span class="chip" data-lang="en" style="display:none;">Organization</span>
+              <span class="chip" data-lang="pt">Adaptabilidade</span>
+              <span class="chip" data-lang="en" style="display:none;">Adaptability</span>
+              <span class="chip" data-lang="pt">Aprendizado contínuo</span>
+              <span class="chip" data-lang="en" style="display:none;">Continuous learning</span>
+            </div>
+          </section>
+
+          <section class="sidebar-section">
+            <h2 data-lang="pt">Graduação</h2>
+            <h2 data-lang="en" style="display:none;">Education</h2>
+            <div class="info-block">
+              <p>Bacharelado em Sistemas de Informação - UniLaSalle – RJ</p>
+              <p data-lang="pt">Em andamento (Encerramento Previsto: 12/2026)</p>
+              <p data-lang="en" style="display:none;">In progress (Expected completion: 12/2026)</p>
+            </div>
+          </section>
+
+          <section class="sidebar-section">
+            <h2 data-lang="pt">Certificações</h2>
+            <h2 data-lang="en" style="display:none;">Certifications</h2>
+            <ul class="cert-list">
+              <li>Oracle Cloud Infrastructure 2025 - Foundations Associate</li>
+              <li>Oracle Cloud Infrastructure 2025 - AI Foundations</li>
+            </ul>
+          </section>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="hero-copy">
+            <span class="tag" data-lang="pt">Disponível para oportunidades</span>
+            <span class="tag" data-lang="en" style="display:none;">Open to opportunities</span>
+
+            <h1 data-lang="pt">Construindo aplicações enterprise, seguras e escaláveis com visão full stack.</h1>
+            <h1 data-lang="en" style="display:none;">Building secure, scalable enterprise applications with a full stack mindset.</h1>
+
+            <p data-lang="pt">Currículo em formato web, com versão responsiva, tradução para inglês e estrutura pensada para recrutadores, gestores técnicos e vagas de alto nível.</p>
+            <p data-lang="en" style="display:none;">Resume in web format, with responsive layout, English version, and a structure designed for recruiters, technical managers, and high-level opportunities.</p>
+          </div>
+
+          <div class="toolbar">
+            <div class="lang-switch" aria-label="Language switcher">
+              <button class="lang-btn active" data-set-lang="pt">PT</button>
+              <button class="lang-btn" data-set-lang="en">EN</button>
+            </div>
+            <button class="main-action" id="downloadMainBtn">Download CV</button>
+          </div>
+        </header>
+
+        <div class="section-grid">
+          <section class="content-card">
+            <div class="section-title">
+              <h2 data-lang="pt">Introdução</h2>
+              <h2 data-lang="en" style="display:none;">Introduction</h2>
+              <span class="line"></span>
+            </div>
+
+            <div class="intro-text" data-lang-content="pt">
+              <p>Desenvolvedor Full Stack com experiência na construção de aplicações web modernas para ambientes enterprise. Atualmente atuo na IBM como estagiário no time de Global Finance &amp; LA Banking, desenvolvendo sistemas responsáveis por processos de reporte regulatório financeiro para o Banco Central do Brasil.</p>
+              <p>Tenho experiência no desenvolvimento de aplicações fullstack utilizando React, NodeJS, Typescript, Java e Python, integrando APIs e trabalhando com bancos de dados relacionais como DB2 e PostgreSQL. Atuo também em processos de segurança e qualidade de software, participando da gestão de vulnerabilidades utilizando ferramentas como SonarQube, Mend e OWASP ZAP integrado a pipelines de CI/CD.</p>
+              <p>Possuo experiência em desenvolvimento end-to-end de aplicações, desde a definição de arquitetura até implementação e deploy, além de forte interesse em boas práticas de engenharia de software, arquitetura de sistemas e desenvolvimento seguro.</p>
+            </div>
+
+            <div class="intro-text" data-lang-content="en">
+              <p>Full Stack Developer with experience building modern web applications for enterprise environments. I currently work at IBM as an intern on the Global Finance &amp; LA Banking team, developing systems responsible for financial regulatory reporting processes for the Central Bank of Brazil.</p>
+              <p>I have experience developing full stack applications using React, NodeJS, Typescript, Java, and Python, integrating APIs and working with relational databases such as DB2 and PostgreSQL. I also work with software security and quality processes, participating in vulnerability management using tools such as SonarQube, Mend, and OWASP ZAP integrated into CI/CD pipelines.</p>
+              <p>I have end-to-end application development experience, from architecture definition to implementation and deployment, along with a strong interest in software engineering best practices, systems architecture, and secure development.</p>
+            </div>
+          </section>
+
+          <section class="content-card">
+            <div class="section-title">
+              <h2 data-lang="pt">Experiência profissional</h2>
+              <h2 data-lang="en" style="display:none;">Professional experience</h2>
+              <span class="line"></span>
+            </div>
+
+            <div class="experience-list" data-lang-content="pt">
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="date">Ago 2024 – Atual</div>
+                  <div class="company">IBM – Global Finance &amp; LA Banking CIO</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Application Developer Full Stack (Estagio)</h3>
+                  <p>Atuação no desenvolvimento de aplicações e ferramentas internas utilizadas em sistemas responsáveis por processos de reporte regulatório financeiro entre plataformas IBM e o Banco Central do Brasil.</p>
+                  <ul>
+                    <li>Arquitetei e desenvolvi o SeverityCheck, uma plataforma interna de monitoramento de vulnerabilidades que agrega resultados de varreduras de segurança em diferentes repositórios e ferramentas de CI/CD, fornecendo dashboards e relatórios para processos de compliance e auditoria. Construiu a solução completa, incluindo frontend em React + Redux, backend em NodeJS + Express , APIs REST e modelagem de banco de dados relacional.</li>
+                    <li>Implementei uma nova funcionalidade de notificação automática para fluxos de trabalho de relatórios regulatórios financeiros, permitindo que auditores acompanhem o envio de documentos exigidos para relatórios do Banco Central. A lógica de backend foi desenvolvida utilizando NodeJS + Typescript.</li>
+                    <li>Desenvolvi um dashboard financeiro seguro utilizado por equipes de Governança para visualizar indicadores financeiros relacionados ao SCR, integrando múltiplas fontes de dados e implementando autenticação da IBM e fluxos de segurança SSO (Single Sign-On).</li>
+                  </ul>
+                  <p>Responsabilidades adicionais incluíram gerenciamento de vulnerabilidades em repositórios utilizando SonarQube, Mend e OWASP ZAP, além de atuação em ambientes corporativos de CI/CD com Dynatrace e Podman.</p>
+                  <p><strong>Tecnologias:</strong> React, Redux, Node.js, Java, Python (FastAPI / Dash Plotly), DB2, PostgreSQL, CI/CD, Podman, Dynatrace.</p>
+                </div>
+              </article>
+
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="date">Mai 2024 – Ago 2024</div>
+                  <div class="company">Fiscal Cripto</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Front-End Developer</h3>
+                  <ul>
+                    <li>Desenvolvimento e manutenção de funcionalidades para o WebApp e website da empresa.</li>
+                    <li>Integração de componentes frontend com dados de APIs.</li>
+                    <li>Colaboração com equipe backend na entrega de novas funcionalidades.</li>
+                  </ul>
+                  <p>Também tinha que aplicar o trabalho seguindo a metodologia SCRUM e prezar por boas práticas e qualidade de código.</p>
+                  <p><strong>Tecnologias:</strong> Vue.js, JavaScript, Node.js, Azure DevOps.</p>
+                </div>
+              </article>
+
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="date">Junho 2023 – Abr 2024</div>
+                  <div class="company">Freelancer</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Desenvolvedor Web – Freelancer</h3>
+                  <ul>
+                    <li>Desenvolvimento de integrações entre sistemas ERP e APIs externas.</li>
+                    <li>Implementação de autenticação e regras de negocios no backend para importação e exportação de dados.</li>
+                    <li>Integração com sistemas como Bling, Omie e SAP B1.</li>
+                    <li>Desenvolvimento de Web site e interfaces de gerenciamento</li>
+                  </ul>
+                  <p><strong>Tecnologias:</strong> Python, Django, FastAPI, SQLAlchemy, PostgreSQL e React e UI design (Material UI).</p>
+                </div>
+              </article>
+
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="company">Linkko Marketing Digital</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Web Designer &amp; Marketing Analyst</h3>
+                  <ul>
+                    <li>Desenvolvimento de identidade visual e materiais digitais.</li>
+                    <li>Criação de landing pages e blogs utilizando CMS.</li>
+                    <li>Geração de Dashboard e analise de trafego de rede</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+
+            <div class="experience-list" data-lang-content="en">
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="date">Aug 2024 – Present</div>
+                  <div class="company">IBM – Global Finance &amp; LA Banking CIO</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Full Stack Application Developer (Intern)</h3>
+                  <p>Working on the development of internal applications and tools used in systems responsible for financial regulatory reporting processes between IBM platforms and the Central Bank of Brazil.</p>
+                  <ul>
+                    <li>I architected and developed SeverityCheck, an internal vulnerability monitoring platform that aggregates security scan results from different repositories and CI/CD tools, providing dashboards and reports for compliance and audit processes. I built the complete solution, including React + Redux frontend, NodeJS + Express backend, REST APIs, and relational database modeling.</li>
+                    <li>I implemented a new automatic notification feature for financial regulatory report workflows, allowing auditors to track the submission of documents required for Central Bank reports. The backend logic was developed using NodeJS + Typescript.</li>
+                    <li>I developed a secure financial dashboard used by Governance teams to visualize financial indicators related to SCR, integrating multiple data sources and implementing IBM authentication and SSO (Single Sign-On) security flows.</li>
+                  </ul>
+                  <p>Additional responsibilities included vulnerability management across repositories using SonarQube, Mend, and OWASP ZAP, as well as work within corporate CI/CD environments with Dynatrace and Podman.</p>
+                  <p><strong>Technologies:</strong> React, Redux, Node.js, Java, Python (FastAPI / Dash Plotly), DB2, PostgreSQL, CI/CD, Podman, Dynatrace.</p>
+                </div>
+              </article>
+
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="date">May 2024 – Aug 2024</div>
+                  <div class="company">Fiscal Cripto</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Front-End Developer</h3>
+                  <ul>
+                    <li>Development and maintenance of features for the company WebApp and website.</li>
+                    <li>Integration of frontend components with API data.</li>
+                    <li>Collaboration with the backend team to deliver new features.</li>
+                  </ul>
+                  <p>I also had to follow SCRUM methodology and prioritize best practices and code quality.</p>
+                  <p><strong>Technologies:</strong> Vue.js, JavaScript, Node.js, Azure DevOps.</p>
+                </div>
+              </article>
+
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="date">Jun 2023 – Apr 2024</div>
+                  <div class="company">Freelancer</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Web Developer – Freelancer</h3>
+                  <ul>
+                    <li>Development of integrations between ERP systems and external APIs.</li>
+                    <li>Implementation of authentication and business rules in the backend for data import and export.</li>
+                    <li>Integration with systems such as Bling, Omie, and SAP B1.</li>
+                    <li>Development of websites and management interfaces.</li>
+                  </ul>
+                  <p><strong>Technologies:</strong> Python, Django, FastAPI, SQLAlchemy, PostgreSQL, React, and UI design (Material UI).</p>
+                </div>
+              </article>
+
+              <article class="experience-item">
+                <div class="experience-meta">
+                  <div class="company">Linkko Marketing Digital</div>
+                </div>
+                <div class="experience-body">
+                  <h3>Web Designer &amp; Marketing Analyst</h3>
+                  <ul>
+                    <li>Development of visual identity and digital materials.</li>
+                    <li>Creation of landing pages and blogs using CMS.</li>
+                    <li>Dashboard generation and traffic analysis.</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="content-card">
+            <div class="section-title">
+              <h2 data-lang="pt">Projetos em destaque</h2>
+              <h2 data-lang="en" style="display:none;">Featured projects</h2>
+              <span class="line"></span>
+            </div>
+
+            <div class="project-grid" data-lang-content="pt">
+              <article class="project-card">
+                <h3>ACION Supply Chain</h3>
+                <p>Gestão da cadeia de suprimentos e dos estoques. Tive experiência com projetos ERP, fiquei responsável por fazer todas as integrações com api de terceiro como Bling, Omie e SAP B1 (Full Django e PostgreSQL)</p>
+              </article>
+              <article class="project-card">
+                <h3>NASA Space Apps Challenge – Regional Winner</h3>
+                <p>Fiz a arquitetura do projeto, desenvolvi o front e Integração com backend. O Projeto se trata de um chat educacional alimentado com os dados de registros da Nasa. (React, FastAPI e Langchain)</p>
+              </article>
+              <article class="project-card">
+                <h3>Sistema de Gestão de Atividades</h3>
+                <p>Desenvolvi o Gerenciador de Matrícula e atividades, para a Ação Social Projeto Avante. (Django, Javascript, HTML, CSS e PostgreSQL)</p>
+              </article>
+              <article class="project-card">
+                <h3>SeverityCheck – Plataforma de Monitoramento de Vulnerabilidades</h3>
+                <p>Desenvolvi todo Projeto (arquitetura e diagramação, backend, serviços em API, Cronjob, frontend, banco de dados e hospedagem), um gerenciador de vulnerabilidades dos repositórios do meu time na IBM, também fiz a hospedagem na cloud em intranet. (React, Express, Axios e Redux, PostgreSQL)</p>
+              </article>
+            </div>
+
+            <div class="project-grid" data-lang-content="en">
+              <article class="project-card">
+                <h3>ACION Supply Chain</h3>
+                <p>Supply chain and inventory management. I worked on ERP projects and was responsible for all integrations with third-party APIs such as Bling, Omie, and SAP B1 (Full Django and PostgreSQL).</p>
+              </article>
+              <article class="project-card">
+                <h3>NASA Space Apps Challenge – Regional Winner</h3>
+                <p>I designed the project architecture, developed the frontend, and integrated it with the backend. The project is an educational chat solution powered by NASA records data. (React, FastAPI, and Langchain)</p>
+              </article>
+              <article class="project-card">
+                <h3>Activity Management System</h3>
+                <p>I developed the enrollment and activity management system for Ação Social Projeto Avante. (Django, Javascript, HTML, CSS, and PostgreSQL)</p>
+              </article>
+              <article class="project-card">
+                <h3>SeverityCheck – Vulnerability Monitoring Platform</h3>
+                <p>I developed the entire project (architecture and design, backend, API services, cronjob, frontend, database, and hosting), a vulnerability manager for my team repositories at IBM, and also handled cloud hosting on the intranet. (React, Express, Axios, Redux, PostgreSQL)</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="content-card">
+            <div class="section-title">
+              <h2 data-lang="pt">Informações adicionais</h2>
+              <h2 data-lang="en" style="display:none;">Additional information</h2>
+              <span class="line"></span>
+            </div>
+
+            <ul class="additional-list" data-lang-content="pt">
+              <li>Monitor acadêmico nas disciplinas de Desenvolvimento Web III e Lógica de Programação II</li>
+              <li>Grande interesse com ambiente financeiro e bancário, com conhecimento sobre para aplicar em sistemas.</li>
+              <li>Interesse em arquitetura de software e desenvolvimento seguro</li>
+              <li>Estudando Angular e me preparando para certificação da AWS</li>
+            </ul>
+
+            <ul class="additional-list" data-lang-content="en">
+              <li>Academic monitor in Web Development III and Programming Logic II.</li>
+              <li>Strong interest in financial and banking environments, with knowledge applicable to systems development.</li>
+              <li>Interest in software architecture and secure development.</li>
+              <li>Currently studying Angular and preparing for AWS certification.</li>
+            </ul>
+          </section>
         </div>
 
-        <div class="section">
-            <h2>Tech Stack</h2>
+        <p class="footer-note">Samuel Elias Rocha · GitHub Pages Ready</p>
+      </main>
+    </div>
+  </div>
 
-            <h3>Linguages</h3>
-            <p>Node.js e Typescript (Express, NestJS, React, Vue, Redux, Axios)</p>
-            <p>Python (Django, FastAPI, Langchain, Ollama, Pandas, Dash Plotly)</p>
-            <p>Java 8, 11, 21 (Enterprise e Spring)</p>
-
-            <h3>DevOps e Cloud</h3>
-            <p>Docker e Podman</p>
-            <p>CI/CD Pipelines</p>
-            <p>Conhecimento de AWS</p>
-
-            <h3>Database</h3>
-            <p>DB2, PostgreSQL, Redis, DynamoDB</p>
-
-            <h3>Teste e Observabilidade</h3>
-            <p>SAST e DAST</p>
-            <p>SonarQube, Mend, OWASP ZAP</p>
-            <p>Dynatrace</p>
-
-            <h3>Engenharia de Software</h3>
-            <p>SOLID</p>
-            <p>Microservices architecture</p>
-            <p>Método Ágil e SCRUM</p>
-            <p>Boas prática de segurança</p>
-        </div>
-
-        <div class="section">
-            <h2>Formação Acadêmica</h2>
-            <p>Bacharelado em Sistemas de Informação - UniLaSalle – RJ</p>
-            <p>Em andamento (Encerramento Previsto: 12/2026)</p>
-        </div>
-
-        <div class="section">
-            <h2>Certificações</h2>
-            <p>Oracle Cloud Infrastructure 2025 - Foundations Associate</p>
-            <p>Oracle Cloud Infrastructure 2025 - AI Foundations</p>
-        </div>
-
-    </aside>
-
-
-    <!-- CONTEUDO -->
-    <main class="content">
-
-        <section>
-            <h2>Introdução</h2>
-
-            <p>
-Desenvolvedor Full Stack com experiência na construção de aplicações web modernas para ambientes enterprise. Atualmente atuo na IBM como estagiário no time de Global Finance & LA Banking, desenvolvendo sistemas responsáveis por processos de reporte regulatório financeiro para o Banco Central do Brasil.
-            </p>
-
-            <p>
-Tenho experiência no desenvolvimento de aplicações fullstack utilizando React, NodeJS, Typescript, Java e Python, integrando APIs e trabalhando com bancos de dados relacionais como DB2 e PostgreSQL. Atuo também em processos de segurança e qualidade de software, participando da gestão de vulnerabilidades utilizando ferramentas como SonarQube, Mend e OWASP ZAP integrado a pipelines de CI/CD.
-            </p>
-
-            <p>
-Possuo experiência em desenvolvimento end-to-end de aplicações, desde a definição de arquitetura até implementação e deploy, além de forte interesse em boas práticas de engenharia de software, arquitetura de sistemas e desenvolvimento seguro.
-            </p>
-
-        </section>
-
-
-        <section>
-            <h2>Experiência Profissional</h2>
-
-            <h3>Application Developer Full Stack (Estagio)</h3>
-            <h4>IBM – Global Finance & LA Banking CIO</h4>
-            <p>Ago 2024 – Atual</p>
-
-            <p>
-Atuação no desenvolvimento de aplicações e ferramentas internas utilizadas em sistemas responsáveis por processos de reporte regulatório financeiro entre plataformas IBM e o Banco Central do Brasil.
-            </p>
-
-            <ul>
-                <li>Arquitetei e desenvolvi o SeverityCheck, uma plataforma interna de monitoramento de vulnerabilidades que agrega resultados de varreduras de segurança em diferentes repositórios e ferramentas de CI/CD.</li>
-                <li>Implementei uma nova funcionalidade de notificação automática para fluxos de trabalho de relatórios regulatórios financeiros.</li>
-                <li>Desenvolvi um dashboard financeiro seguro utilizado por equipes de Governança para visualizar indicadores financeiros relacionados ao SCR.</li>
-            </ul>
-
-            <p>
-Tecnologias: React, Redux, Node.js, Java, Python (FastAPI / Dash Plotly), DB2, PostgreSQL, CI/CD, Podman, Dynatrace.
-            </p>
-
-            <h3>Front-End Developer</h3>
-            <h4>Fiscal Cripto</h4>
-            <p>Mai 2024 – Ago 2024</p>
-
-            <ul>
-                <li>Desenvolvimento e manutenção de funcionalidades para o WebApp e website da empresa.</li>
-                <li>Integração de componentes frontend com dados de APIs.</li>
-                <li>Colaboração com equipe backend na entrega de novas funcionalidades.</li>
-            </ul>
-
-            <h3>Desenvolvedor Web – Freelancer</h3>
-            <p>Junho 2023 – Abr 2024</p>
-
-            <ul>
-                <li>Desenvolvimento de integrações entre sistemas ERP e APIs externas.</li>
-                <li>Implementação de autenticação e regras de negocios no backend.</li>
-                <li>Integração com sistemas como Bling, Omie e SAP B1.</li>
-            </ul>
-
-            <h3>Web Designer & Marketing Analyst</h3>
-            <h4>Linkko Marketing Digital</h4>
-
-            <ul>
-                <li>Desenvolvimento de identidade visual e materiais digitais.</li>
-                <li>Criação de landing pages e blogs utilizando CMS.</li>
-                <li>Geração de Dashboard e analise de trafego de rede</li>
-            </ul>
-
-        </section>
-
-
-        <section>
-            <h2>Projetos em Destaques</h2>
-
-            <p><strong>ACION Supply Chain</strong> – Gestão da cadeia de suprimentos e dos estoques</p>
-
-            <p><strong>NASA Space Apps Challenge – Regional Winner</strong></p>
-
-            <p><strong>Sistema de Gestão de Atividades</strong></p>
-
-            <p><strong>SeverityCheck – Plataforma de Monitoramento de Vulnerabilidades</strong></p>
-
-        </section>
-
-
-        <section>
-            <h2>Informações Complementares</h2>
-
-            <ul>
-                <li>Monitor acadêmico nas disciplinas de Desenvolvimento Web III e Lógica de Programação II</li>
-                <li>Grande interesse com ambiente financeiro e bancário</li>
-                <li>Interesse em arquitetura de software e desenvolvimento seguro</li>
-                <li>Estudando Angular e me preparando para certificação da AWS</li>
-            </ul>
-
-        </section>
-
-    </main>
-
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
